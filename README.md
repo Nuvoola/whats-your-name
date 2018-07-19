@@ -30,13 +30,14 @@ This step requires your AWS credentials to be set up:
 * as `your_aws_region`
 * stored in `~/.aws/config`
 
-[Set up AWS Credentials and Region for Development](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-credentials.html)
+For more information about credentials, you can see [Set up AWS Credentials and Region for Development](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-credentials.html)
 
 Create required S3 buckets:
 
 1. Where CloudFormation will upload Lambda code to (`CODE_DEPLOYMENT_BUCKET`)
 
 ```bash
+# To create a Bucket Sign open the Amazon S3 console at  https://console.aws.amazon.com/s3/. You must use the Bucket name filed for my-bucket 
 # this bucket is where the zip file with AWSLambda code will be uploaded (it's used by CloudFormation to deploy Lambda)
 export CODE_DEPLOYMENT_BUCKET=my-bucket
 
