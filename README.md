@@ -28,7 +28,8 @@ This step requires your AWS credentials to be set up:
 * as `export AWS_ACCESS_KEY_ID=""; export AWS_SECRET_ACCESS_KEY=""`
 * stored in `~/.aws/credentials`
 * as `your_aws_region`
-* stered in `~/.aws/config`
+* stored in `~/.aws/config`
+
 [Set up AWS Credentials and Region for Development](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-credentials.html)
 
 Create required S3 buckets:
